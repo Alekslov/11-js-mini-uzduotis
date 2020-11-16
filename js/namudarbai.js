@@ -173,35 +173,35 @@ if (raide1 <= raide2) {
 
     //4. Išvesti sąrašo tipo kintamųjų ilgius
 
-const arrow1 = ['vienas', 'du', 'tris'];
-const arrow2 = ['keturi', 'penki', 'sesi'];
+const array1 = ['vienas', 'du', 'tris'];
+const array2 = ['keturi', 'penki', 'sesi'];
 
-if (arrow1 > arrow2) {
+if (array1 > array2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kitą kartą');
 } 
-if (arrow1 < arrow2) {
+if (array1 < array2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kitą kartą');
 }
-if (arrow1 == arrow2) {
+if (array1 == array2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kitą kartą');
 }    
-if (arrow1 != arrow2) {
+if (array1 != array2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kitą kartą');
 }
-if (arrow1 >= arrow2) {
+if (array1 >= array2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kitą kartą');
 }
-if (arrow1 <= arrow2) {
+if (array1 <= array2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kitą kartą');
@@ -223,11 +223,15 @@ console.clear()
 
 const nuo = 0;
 const iki = 4;
+let suma = 0;
 
-for (let i = 0; i <= 4; i++) {
-suma = i + iki;
-console.log(suma);
+for (let i = nuo; i <= iki; i++) {
+suma = suma + i;
+// console.log(i, 'suma', suma);
 }
+console.log(`Skaiciu suma intervale yra ${suma}`);
+
+
 
 
 
